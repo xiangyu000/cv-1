@@ -7,6 +7,7 @@
     <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
     <title>xiangyu简历1.0</title>
+    <link rel="stylesheet" rel="style.css">
 </head>
 
 <body>
@@ -16,56 +17,6 @@
     <div id="div1wrap">
         <div id='div1'></div>
     </div>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        *::after {
-            box-sizing: border-box;
-        }
-
-        *::before {
-            box-sizing: border-box;
-        }
-
-        #demo {
-            word-break: break-all;
-            /* 设置自动换行 */
-        }
-
-        #div1 {
-            position: fixed;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 10%;
-        }
-
-        /* 如果这段代码放在媒体设备查询代码后，则会覆盖为媒体设备设置的样式 */
-
-        @media(max-width:500px) {
-
-            #demo {
-                height: 50vh;
-                overflow: scroll;
-            }
-
-            #div1wrap {
-                height: 50vh;
-            }
-
-            #div1 {
-                position: relative;
-                top: 50%;
-                left: 50%;
-                transform: translateX(-50%)translateY(-50%);
-            }
-        }
-
-        /* 媒体设备查询 */
-    </style>
     <script src="main.js"></script>
 </body>
 
