@@ -18,6 +18,7 @@ let string = `
 #div1{
     box-shadow:0,0,3px,rgba(0,0,0,0.5);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    border:none;
 }
 /*
  *加上两个小圆，构造阴阳鱼的轮廓
